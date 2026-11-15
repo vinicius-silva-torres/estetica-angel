@@ -1,4 +1,4 @@
-const WHATSAPP_NUMERO = "5511999999999";
+const WHATSAPP_NUMERO = "5511964233965";
 const INSTAGRAM_URL = "https://instagram.com/seuinstagram";
 
 // 1. Links dinâmicos de WhatsApp e Instagram
