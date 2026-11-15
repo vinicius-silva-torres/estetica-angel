@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- TROCAR: Nome da Clínica / Espaço de Massoterapia -->
+  <title>Espaço Aura | Massoterapia & Estética Corporal</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav id="navegacao">
+      <div class="nav-esquerda">
+        <a href="#servicos" class="link-menu">Procedimentos</a>
+        <a href="#avaliacao" class="link-menu">Avaliações</a>
+      </div>
+
+      <a href="#inicio" class="logo-centro">
+        <img class="logo" src="img/logo.png" alt="Logo Espaço Aura">
+        <div class="logo-texto">ESPAÇO <span>AURA</span></div>
+      </a>
+
+      <div class="nav-direita">
+        <a href="#contato" class="btn-agendar-topo">
+          Agendar<br><span>Horário</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero">
+      <span class="selo-topo">✨ MASSOTERAPIA & AUTOCUIDADO • HORA MARCADA</span>
+
+      <h1>
+        Desacelere a rotina e sinta a leveza da
+        <span class="destaque-animado" id="palavra-troca">Massagem Relaxante.</span>
+      </h1>
+
+      <p class="subtitulo-hero">
+        Alívio imediato de dores, redução de inchaço e protocolos corporais e faciais em um ambiente acolhedor pensado para renovar suas energias.
+      </p>
+
+      <!-- CARROSSEL ESTILO INSTAGRAM (POST/REELS) -->
+      <div class="carrossel-galeria" id="carrossel-principal">
+
+        <div class="card-carrossel">
+          <div class="insta-header">
+            <span class="insta-bolinha"></span>
+            <span class="insta-user">@espacoaura • Relaxamento</span>
+          </div>
+          <img src="img/carrossel-1.jpg" alt="Massagem Relaxante e Pedras Quentes">
+          <a href="#" target="_blank" class="legenda-cta link-whatsapp" data-servico="Massagem Relaxante">
+            🌿 Massagem Relaxante — Agendar Sessão
+          </a>
+        </div>
+
+        <div class="card-carrossel">
+          <div class="insta-header">
+            <span class="insta-bolinha"></span>
+            <span class="insta-user">@espacoaura • Drenagem</span>
+          </div>
+          <img src="img/carrossel-2.jpg" alt="Drenagem Linfática e Modeladora">
+          <a href="#" target="_blank" class="legenda-cta link-whatsapp" data-servico="Drenagem Linfática">
+            ✨ Drenagem Linfática — Ver Valores
+          </a>
+        </div>
+
+        <div class="card-carrossel">
+          <div class="insta-header">
+            <span class="insta-bolinha"></span>
+            <span class="insta-user">@espacoaura • Terapêutica</span>
+          </div>
+          <img src="img/carrossel-3.jpg" alt="Liberação Miofascial e Estética Facial">
+          <a href="#" target="_blank" class="legenda-cta link-whatsapp" data-servico="Massagem Terapêutica e Facial">
+            💆‍♀️ Alívio de Tensões — Quero Agendar
+          </a>
+        </div>
+
+      </div>
+
+      <div class="insta-dots" id="indicadores-carrossel">
+        <span class="dot ativo"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <p class="micro-provas">🌿 Cuidado personalizado • ✨ Espaço aconchegante • 📍 Fácil localização</p>
+    </section>
+
+    <!-- GRADE DE PROCEDIMENTOS (COM EFEITO BLUR SUAVE) -->
+    <section id="servicos" class="galeria">
+      <h2 class="titulo-secao">Nossos <span class="destaque-animado">Protocolos de Cuidado</span></h2>
+      <p class="subtitulo-secao">Toque terapêutico e estética integrativa para o seu bem-estar físico e mental.</p>
+
+      <div class="grade-galeria">
+
+        <article class="card-servico">
+          <img src="img/card-1.png" alt="Massagem Relaxante e Aromaterapia" />
+          <div class="card-conteudo">
+            <h3 class="titulos-secundarios">Massagem Relaxante & Spa</h3>
+            <p>Manobras suaves com óleos essenciais aquecidos e pedras quentes para dissolver o estresse, a ansiedade e o cansaço físico.</p>
+            <a href="#" target="_blank" class="btn-card-orcamento link-whatsapp" data-servico="Massagem Relaxante & Spa">
+              Consultar valores e horários →
+            </a>
+          </div>
+        </article>
+
+        <article class="card-servico">
+          <img src="img/card-2.png" alt="Drenagem Linfática e Redução de Inchaço" />
+          <div class="card-conteudo">
+            <h3 class="titulos-secundarios">Drenagem & Detox Corporal</h3>
+            <p>Técnica manual precisa que elimina a retenção de líquidos, reduz o inchaço desde a 1ª sessão e melhora a circulação.</p>
+            <a href="#" target="_blank" class="btn-card-orcamento link-whatsapp" data-servico="Drenagem Linfática e Detox">
+              Consultar valores e pacotes →
+            </a>
+          </div>
+        </article>
+
+        <article class="card-servico">
+          <img src="img/card-3.png" alt="Massagem Terapêutica e Estética Facial" />
+          <div class="card-conteudo">
+            <h3 class="titulos-secundarios">Terapêutica & Cuidado Facial</h3>
+            <p>Liberação de nódulos de dor nas costas e trapézio, além de limpeza de pele e massagem lifting facial revigorante.</p>
+            <a href="#" target="_blank" class="btn-card-orcamento link-whatsapp" data-servico="Massagem Terapêutica e Facial">
+              Consultar valores e horários →
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- COMPARADOR ANTES E DEPOIS -->
+    <section id="resultados" class="secao-comparador">
+      <h2 class="titulo-secao">Resultados que <span class="destaque-animado">Você Sente no Corpo</span></h2>
+      <p class="subtitulo-secao">Arraste para o lado e veja a redução de inchaço e melhora do contorno corporal.</p>
+
+      <div class="comparador-container" id="comparador">
+        <img src="img/depois.jpg" alt="Depois da Drenagem Linfática" class="img-comparador">
+        <span class="tag-comparador tag-depois">Depois</span>
+
+        <div class="img-antes-wrapper" id="antes-wrapper">
+          <img src="img/antes.jpg" alt="Antes da Drenagem Linfática" class="img-comparador img-antes">
+          <span class="tag-comparador tag-antes">Antes</span>
+        </div>
+
+        <input type="range" min="0" max="100" value="50" class="slider-comparador" id="slider-comparador" aria-label="Comparar antes e depois">
+        <div class="linha-divisoria" id="linha-divisoria">
+          <div class="botao-arrastar">↔</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <div class="vantagens-cta">
+      <div class="vantagem">
+        <h3>🕯️ Ambiente Sensorial</h3>
+        <p>Sala climatizada, meia-luz, música relaxante, aromaterapia e lençóis descartáveis macios.</p>
+      </div>
+
+      <div class="vantagem">
+        <h3>🤲 Atendimento Individual</h3>
+        <p>Avaliamos seus pontos de tensão e queixas antes de cada sessão para personalizar a pressão e as manobras.</p>
+      </div>
+
+      <div class="vantagem">
+        <h3>💳 Pacotes Facilitados</h3>
+        <p>Condições especiais para planos mensais de autocuidado, com pagamento via Pix ou cartão.</p>
+      </div>
+    </div>
+
+    <!-- DEPOIMENTOS COM DESENHO DE ASAS / NUVEM NO SCROLL -->
+    <section id="avaliacao" class="secao-depoimentos">
+      <h2 class="titulo-secao">
+        Quem passa por aqui,
+        <span class="destaque-animado-mudar-cor">sai flutuando</span>
+        <svg class="asas-nuvem-linha" viewBox="0 0 36 24" aria-hidden="true">
+          <!-- Asa esquerda + Asa direita + Nuvem suave na base -->
+          <path pathLength="100" d="M18 15 C14 9, 7 6, 2 8 C5 12, 9 14, 14 15 C9 15, 5 17, 4 20 C9 19, 14 18, 18 16 C22 18, 27 19, 32 20 C31 17, 27 15, 22 15 C27 14, 31 12, 34 8 C29 6, 22 9, 18 15 Z" />
+        </svg>
+      </h2>
+      <p class="subtitulo-secao">Veja o carinho de quem já reservou um momento de pausa com a gente.</p>
+
+      <div class="carrossel-depoimentos">
+
+        <div class="card-whats">
+          <div class="whats-topo">
+            <div class="whats-avatar">P</div>
+            <div class="whats-info">
+              <strong>Patrícia (Massagem Relaxante)</strong>
+              <span>online</span>
+            </div>
+          </div>
+          <div class="whats-chat">
+            <div class="msg-cliente">
+              Passando pra agradecer! Eu estava travada de dor nas costas, saí daí me sentindo nas nuvens e dormi igual um anjo ontem ❤️✨
+              <span class="whats-hora">10:15</span>
+            </div>
+            <div class="msg-salao">
+              Que alegria ler isso, Pati! 🥰 Soltamos bem aqueles nódulos de tensão. Sempre que precisar desacelerar, estamos por aqui! 🌿
+              <span class="whats-hora">10:22 ✓✓</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-whats">
+          <div class="whats-topo">
+            <div class="whats-avatar">C</div>
+            <div class="whats-info">
+              <strong>Camila (Drenagem Linfática)</strong>
+              <span>online</span>
+            </div>
+          </div>
+          <div class="whats-chat">
+            <div class="msg-cliente">
+              Menina, que mão de fada é essa?! Desinchei muito já na primeira sessão e minha calça fechou super confortável hoje! 👏💆‍♀️
+              <span class="whats-hora">18:20</span>
+            </div>
+            <div class="msg-salao">
+              A drenagem faz maravilhas, Cami! ✨ Semana que vem tem a sua segunda sessão do pacote! 🤎
+              <span class="whats-hora">18:24 ✓✓</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-whats">
+          <div class="whats-topo">
+            <div class="whats-avatar">B</div>
+            <div class="whats-info">
+              <strong>Beatriz (Spa & Facial)</strong>
+              <span>visto por último hoje às 16:40</span>
+            </div>
+          </div>
+          <div class="whats-chat">
+            <div class="msg-cliente">
+              Amei demais o atendimento! O cheirinho da sala, a maca quentinha e o cuidado de vocês não têm igual. Renovada! 🌸🙌
+              <span class="whats-hora">15:05</span>
+            </div>
+            <div class="msg-salao">
+              Preparamos tudo com muito carinho pra você se desligar do mundo lá fora, Bia! Até a próxima! ✨🤎
+              <span class="whats-hora">15:10 ✓✓</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CARD CTA QUE VOCÊ GOSTOU -->
+    <section id="contato" class="CTA-Whatsapp-espaco">
+      <div class="painel-cta">
+        <h2>Pronta para reservar o seu momento de autocuidado? ✨</h2>
+        <p>
+          Chame nossa equipe no WhatsApp e garanta uma <strong>avaliação personalizada + condição especial</strong> na sua primeira sessão.
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="botao-whatsapp link-whatsapp" id="botao-whatsapp" data-servico="Avaliação Estética e Massoterapia">
+          💬 Agendar minha avaliação pelo WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+    <div class="info-local">
+      <h2>📍 Nosso Espaço & Horários</h2>
+      <p><strong>Horário de Atendimento:</strong> Terça a Sábado, das 09h às 19h (Com hora marcada)</p>
+      <p><strong>Conforto:</strong> Ambiente Climatizado • Aromaterapia • Aceitamos Pix e Cartões</p>
+    </div>
+
+    <iframe
+      class="maps"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197584455129!2d-46.656571!3d-23.561349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <!-- PÍLULA FLUTUANTE -->
+    <a href="#" target="_blank" rel="noopener noreferrer" class="whatsapp-pilula-flutuante link-whatsapp" data-servico="Agendamento Rápido">
+      💬 Agendar Horário
+    </a>
+
+  </main>
+
+  <footer class="rodape-site">
+    <div class="rodape-conteudo">
+      <p>&copy; <span id="ano-atual"></span> Espaço Aura — Massoterapia & Estética. Todos os direitos reservados.</p>
+      <div class="rodape-links">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="link-instagram">Instagram</a>
+        <span>|</span>
+        <a href="#inicio">Voltar ao topo</a>
+      </div>
+      <a href="https://wa.me/5511930878894?text=Ol%C3%A1!%20Vi%20um%20site%20criado%20por%20voc%C3%AA%20e%20quero%20um%20or%C3%A7amento%20para%20o%20meu%20neg%C3%B3cio!"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn-criador-rodape">
+        🚀 Site criado por <strong>Vinicius Silva Torres</strong> — Quer um igual? Toque aqui
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
