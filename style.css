@@ -243,7 +243,6 @@ h1, h2, h3 {
   animation: surgirSuaveBlur 0.8s ease-out forwards;
 }
 
-/* === CARROSSEL ESTILO INSTAGRAM === */
 .carrossel-galeria {
   display: flex;
   position: relative;
@@ -402,7 +401,7 @@ h1, h2, h3 {
   animation-range: entry 0% cover 18%;
 }
 
-/* === CARDS DE PROCEDIMENTOS CENTRALIZADOS E NÍTIDOS CEDO === */
+
 .grade-galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
